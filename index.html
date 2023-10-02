@@ -3,36 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <meta name="Descrição" content="">
+    <title>Guia de Estilo - Elegância acessível</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Seu Título</h1>
-        <p>Descrição da sua oferta.</p>
+    <header class="cabecalho">
+        <h1 class="cabecalho-menu-titulo">Guia de Estilo</h1>
+        <a class="cabecalho-menu-item" href=""> E-book gratuito</a>
+        <a class="cabecalho-menu-item" href="form.html"> Inscreva-se para mais</a>
+        <a class="cabecalho-menu-item" href=""> Contatos</a>
     </header>
-
-    <section>
-        <img src="img/sao.jpeg" alt=""> Sword art online </img>
-        <form>
-            <label for="name">Nome</label>
-            <input type="text"
-            id="name"
-            name="name"/>
-            <br/><br/>
-            <label for="senha">Senha</label>
-            <input type="password"
-            id="password"
-            name="password"/>
-            <br/><br/>
-            <input type="submit">
-        </form>
+<main class="conteudo">
+    <section class="conteudo-principal">
+        <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo"> Guia de Estilo </h1>
+        <h2 class="conteudo-principal-escrito-subtitulo">Para vestir elegantemente
+            não precisa gastar uma
+            fortuna.</h2>
+            <button class="conteudo-principal-escrito-botao" href=""> Saiba mais </button>
+        </div>
+            <img class="conteudo-principal-escrito-imagem" src="" alt=""></img>
     </section>
 
-    <footer>
-        <p>Página teste</p>
-        <p>teste1</p>
-        <p>teste2</p>
+    <section class="conteudo-secundario">
+        <h3 class="conteudo-secundario-titulo"> O que nosso E-book irá te mostrar: </h3>
+        <p class="conteudo-secundario-paragrafo">1. Os Fundamentos essenciais da
+            elegância masculina</p>
+        <p class="conteudo-secundario-paragrafo">2. Definição de
+            Elegância Masculina</p>
+        <p class="conteudo-secundario-paragrafo">3. Por que a Elegância
+            é Atemporal</p>
+    </section>
+</main>
+    <footer class="rodape">
+        <p class="rodape-paragrafo">Contatos</p>
+        <p class="rodape-paragrafo">teste1</p>
+        <p class="rodape-paragrafo">teste2</p>
     </footer>
 
     <script src="js/main.js"></script>
