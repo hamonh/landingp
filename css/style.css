@@ -81,10 +81,12 @@ body {
     font-weight: 400;
     color: #000;
     font-size: 24px;
+    
 }
 
 .conteudo-principal-escrito-botao:hover{
-    background-color: #ffffff;
+    opacity: 0.5;
+    
 }
 .conteudo-principal-escrito-imagem{
     height: 400px;
