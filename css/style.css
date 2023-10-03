@@ -72,7 +72,7 @@ body {
     font-size: 24px;
 }
 .conteudo-principal-escrito-botao{
-    background-color: #59c500;
+    background-color: #ffd700;
     width: 180px;
     height: 60px;
     border: none;
@@ -83,6 +83,9 @@ body {
     font-size: 24px;
 }
 
+.conteudo-principal-escrito-botao:hover{
+    background-color: #ffffff;
+}
 .conteudo-principal-escrito-imagem{
     height: 400px;
 }
